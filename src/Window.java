@@ -30,6 +30,7 @@ public class Window extends JFrame{
             }
         });
         setContentPane(panel1);
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         textIn.setWrapStyleWord(true);
         setTitle("Word counter");
     }
