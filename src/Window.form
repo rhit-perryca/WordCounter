@@ -16,6 +16,7 @@
         </constraints>
         <properties>
           <enabled value="true"/>
+          <font name="Times New Roman" size="15"/>
           <lineWrap value="true"/>
           <text value=""/>
           <wrapStyleWord value="false"/>

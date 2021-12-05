@@ -55,7 +55,8 @@ public class Window extends JFrame{
         while(str.contains(" ")){
             String word=str.substring(0,str.indexOf(' '));
             str = str.substring(str.indexOf(' ') + 1);
-            words.add(word);
+            if (!word.equals(' ')&&!word.equals(""))
+                words.add(word);
         }
         if (!str.equals(' ')&&!str.equals(""))
             words.add(str);
